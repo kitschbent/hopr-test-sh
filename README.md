@@ -1,0 +1,3 @@
+# hopr-test-sh
+
+nothing apart from personal tests.  probably not interesting to you in the slightest...
