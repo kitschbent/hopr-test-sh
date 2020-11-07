@@ -7,5 +7,5 @@ sudo apt-get install -y nodejs
 wget https://github.com/hoprnet/hopr-chat/releases/download/v1.17.14-basodino-testnet/hopr-chat-nodebin-linux.zip
 unzip hopr-chat-nodebin-linux.zip
 rm -f hopr-chat-nodebin-linux.zip
-cd cd -- "$(dirname "$0")"
+cd -- "$(dirname "$0")"
 node index.js -p switzerland 2>log.txt
