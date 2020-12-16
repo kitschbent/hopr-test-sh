@@ -2,13 +2,18 @@
 
 nothing apart from personal tests.  probably not interesting to you in the slightest...
 
-## install-*release* instructions:
+## install-uni instructions:
 
 log in to vps
 
-* wget <ADDR>
-* chmod +x <FILE>
-* ./<FILE>
+* wget https://github.com/kitschbent/hopr-test-sh/releases/download/v0.3/install-uni.sh
+* chmod +x install-uni.sh
+* ./install-uni.sh
+
+### to run chat in local browser
+
+* ssh -L 3000:0.0.0.0:3000 root@`<ip address of VPS>`
+* you'll then be prompted to enter your password
 
 ### if users need to save logs primitively
 
